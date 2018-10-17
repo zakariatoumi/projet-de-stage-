@@ -1,0 +1,100 @@
+/* Your custom styles */
+
+
+.form-simple .font-small {
+  font-size: 0.8rem; }
+
+.form-simple .header {
+  border-top-left-radius: .3rem;
+  border-top-right-radius: .3rem; }
+
+.form-simple input[type=text]:focus:not([readonly]) {
+  border-bottom: 1px solid #4285f4;
+  -webkit-box-shadow: 0 1px 0 0 #4285f4;
+  box-shadow: 0 1px 0 0 #4285f4; }
+
+.form-simple input[type=text]:focus:not([readonly]) + label {
+  color: #4f4f4f; }
+
+.form-simple input[type=password]:focus:not([readonly]) {
+  border-bottom: 1px solid #4285f4;
+  -webkit-box-shadow: 0 1px 0 0 #4285f4;
+  box-shadow: 0 1px 0 0 #4285f4; }
+
+.form-simple input[type=password]:focus:not([readonly]) + label {
+  color: #4f4f4f; }
+
+  /*footer*/
+
+body{
+    padding-bottom: 6rem;
+}
+
+/*table details*/
+
+.table-fixed {
+  table-layout: fixed;
+  overflow: hidden;
+}
+
+
+/* footer */
+
+html{
+  height: 100%;
+}
+body{
+  min-height: 100%;
+  padding-bottom: 35rem;
+  position: relative;
+
+}
+footer{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  html{
+    height: 100%;
+  }
+  body{
+    min-height: 100%;
+    padding-bottom: 75rem;
+    position: relative;
+  
+  }
+  footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+}
+
+
+
+
+.accordion-blocks .card {
+  margin-bottom: 1.2rem;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.accordion-blocks .card .card-body {
+  border-top: 1px solid #eee;
+}
+
+
+.dropdown-submenu {
+  position:relative;
+}
+.dropdown-submenu .dropdown-menu {
+  top:0;
+  left:100%;
+}
+
+
+
+
